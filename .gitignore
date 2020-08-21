@@ -1,0 +1,16 @@
+# ignore all files in the directory called ".idea"
+.idea/
+
+# ignore all ZIP files
+*.zip
+*.rar
+*.7zip
+
+# ignore all keras model files
+*.h5
+*.pkl
+
+# ignore all data files (temporary)
+*.csv
+*.dat
+*.xls
