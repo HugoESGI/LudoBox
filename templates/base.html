@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{% block title %}Page de base{% endblock %}</title>
-</head>
-<body>
-    <p>{%block date %}{{date}}{% endblock %}</p>
-    <nav>
-        {%block nav %}
-        <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/article/">Article</a></li>
-        </ul>
-        {% endblock %}
-    </nav>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Page de base{% endblock %}</title>
+    </head>
+    <body>
+        <p>{%block date %}{{date}}{% endblock %}</p>
+        <nav>
+            {%block nav %}
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/blog/">Blog</a></li>
+            </ul>
+            {% endblock %}
+        </nav>
+    </body>
 </html>
